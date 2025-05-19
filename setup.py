@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="gradflow",  
-    version="0.1.2",
+    name="gradflow_kit",  
+    version="0.1.3",
     author="N-T-Raghava",
     author_email="tanmairaghav3836@gmail.com",  
     description="A clean and modular auto-differentiation engine inspired by micrograd",
