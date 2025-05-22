@@ -15,7 +15,7 @@ class Node:
     def __str__(self):
         if not self.actn == '' and not self.mark == '' and not self.kids == ():
             return f"Node: {self.data}"
-        return f"Node: {self.data}"
+        return f"Node: {self.data}, Mark: {self.mark}"
 
     def __len__(self):
         return len(self.kids)

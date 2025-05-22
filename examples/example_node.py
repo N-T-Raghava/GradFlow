@@ -1,5 +1,6 @@
 from micrograd.node import Node
 from micrograd.draw import draw_dot
+
 n1 = Node(4.0)
 print(n1)
 
